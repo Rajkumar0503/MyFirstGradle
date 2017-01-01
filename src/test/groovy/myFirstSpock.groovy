@@ -34,7 +34,7 @@ class myFirstSpock extends Specification {
 			
 			where:
 			a|_
-			3|_
+			2|_
 			2|_
 			2|_
 			
