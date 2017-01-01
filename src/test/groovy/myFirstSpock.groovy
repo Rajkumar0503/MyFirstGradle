@@ -25,5 +25,19 @@ class myFirstSpock extends Specification {
 			2|_
 			
 		}
+		
+		def "my1"(int a)
+		{
+			
+			expect:
+			a==2
+			
+			where:
+			a|_
+			3|_
+			2|_
+			2|_
+			
+		}
 
 }
